@@ -19,6 +19,10 @@ npm run build
 ```
 npm run lint
 ```
+## Electron
+
+### Importante!
+No momento é necessário utilizar a versão 16 do Node para que tudo fucione corretamente.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
