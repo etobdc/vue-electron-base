@@ -1,16 +1,33 @@
 # vue-electron-base
+Base pré-configurada com Vue 3 + Vuetify 3 + Electron
 
-## Project setup
+## Setup
 ```
 npm install
 ```
+### Importante!
+No momento é necessário utilizar Node versão 16 para que tudo fucione corretamente.
 
-### Compiles and hot-reloads for development
+## Electron
+### Para iniciar o Development Server!
+Este comando inicia o vue server e após isso inicia a aplicação em electron 
+```
+npm run electron:serve
+```
+
+### Para gerar Build de sua Aplicação
+Este comando gera o build da aplicação em Vue e após isso gera a build do electron criando o instalador do programa
+```
+npm run electron:build
+```
+
+## Vue
+### Para iniciar o Development Server!
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Para gerar Build de sua Aplicação
 ```
 npm run build
 ```
@@ -19,10 +36,9 @@ npm run build
 ```
 npm run lint
 ```
-## Electron
+### Customizar configurações
+Veja [Configurações](https://cli.vuejs.org/config/).
 
-### Importante!
-No momento é necessário utilizar a versão 16 do Node para que tudo fucione corretamente.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
